@@ -1,4 +1,4 @@
-RANKING_FILE <- "/var/tmp/petanque-ranking.rds"
+RANKING_FILE <- "C:/petanque-ranking.rds"
 
 #' Update ranking based on the result of the game
 #' @param players Player names (character vector of length 2)
