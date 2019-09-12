@@ -84,7 +84,7 @@ petanqueUI <- function(debug = FALSE) {
                     case 13: // enter
                       Shiny.onInputChange("enter", Math.random(1));
                       break;
-                    case 76: // space l
+                    case 32: // space
                       Shiny.onInputChange("enter", Math.random(1));
                       break;
 
