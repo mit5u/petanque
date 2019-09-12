@@ -66,16 +66,16 @@ petanqueUI <- function(debug = FALSE) {
               $(document).on("keydown", function (e) {
    						  if (!document.getElementById("shiny-modal")) {
                   switch (e.which) {
-                    case 40: // down
+                    case 83: // down s
                       Shiny.onInputChange("down", Math.random(1));
                       break;
-                    case 38: // up
+                    case 90: // up z
                       Shiny.onInputChange("up", Math.random(1));
                       break;
-                    case 37: // left
+                    case 81: // left q
                       Shiny.onInputChange("left", Math.random(1));
                       break;
-                    case 39: // right
+                    case 68: // right d
                       Shiny.onInputChange("right", Math.random(1));
                       break;
 										case 72: // h
@@ -84,7 +84,7 @@ petanqueUI <- function(debug = FALSE) {
                     case 13: // enter
                       Shiny.onInputChange("enter", Math.random(1));
                       break;
-                    case 32: // space
+                    case 76: // space l
                       Shiny.onInputChange("enter", Math.random(1));
                       break;
 
