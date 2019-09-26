@@ -1,4 +1,4 @@
-PLAYER_FILE <- "./petanque-players.rds"
+PLAYER_FILE <- "petanque-players.rds"
 
 #' Get a vector of all saved player names
 #' @param file Path to the RDS file with saved players
