@@ -7,7 +7,7 @@
 To install, you can use `remotes` (or `devtools`):
 ```
 # install.packages("remotes") 
-remotes::install_github("openanalytics/petanque")
+remotes::install_github("mit5u/petanque")
 ```
 
 ## Running the application
